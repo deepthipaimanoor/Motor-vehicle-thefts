@@ -72,4 +72,4 @@ order by 4;
 SELECT vehicle_type, count(*) as stolen_vehicle_count
 FROM dbo.stolen_vehicles
 group by vehicle_type
-order by
+order by 2
